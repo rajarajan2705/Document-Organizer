@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database
+database/*.db
+database/*.db-shm
+database/*.db-wal
+
+# Uploaded files
+public/uploads/*
+!public/uploads/.gitkeep
+# Keep temp folder structure but ignore files
+!public/uploads/_temp/
+public/uploads/_temp/*
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+.cache/
